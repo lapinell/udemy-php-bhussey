@@ -5,7 +5,7 @@
   <!DOCTYPE html>
   <html>
     <head>
-      <title></title>
+      <title><?php echo TITLE; ?></title>
       <link href="./assets/styles.css" rel="stylesheet">
     </head>
 
@@ -20,3 +20,4 @@
           <?php include('./assets/includes/nav.php'); ?>
         </div><!-- nav -->
         <div class="content">
+        
