@@ -34,6 +34,19 @@
           exit;
         }
 
+        // Add teh recipient email to a variable
+        $to = "lapinell@gmail.com";
+
+        // Create a subject
+        $subject = "$name sent you a message via your contact form";
+
+        // Construct message
+        $msg = "Name: $name\r\n";
+        $msg .= "Email: $email\r\n";
+        $msg .= "Message:\r\n$msg";
+
+        //
+
       }
 
     ?>
