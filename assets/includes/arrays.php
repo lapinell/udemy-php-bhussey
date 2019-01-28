@@ -42,4 +42,33 @@
       image => "carlos"
     )
   );
+
+  // Menu Items
+
+  $menuItems = array(
+    "club-sandwich" => array(
+      title => "Club Sandwich",
+      price => 11,
+      blurb => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      drink => "Coke",
+    ),
+    "dill-salmon" => array(
+      title => "Lemon &amp; Dill Salmon",
+      price => 18,
+      blurb => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      drink => "Tea",
+    ),
+    "super-salad" => array(
+      title => "The Super Salad<sup>&reg;</sup>",
+      price => 34,
+      blurb => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      drink => "Water",
+    ),
+    "mexican-barbacoa" => array(
+      title => "Mexican Barbacoa",
+      price => 23,
+      blurb => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      drink => "Beer",
+    )
+  )
 ?>
