@@ -9,27 +9,35 @@ This was a relatively simple course that covered a good chunk of the super-basic
 **Course Plan**
 
 Section 1 - Introduction
+
 This section went over what PHP is and provided a shallow explanation about how it works. Then he went over tools, where to find and how to access the course files.
 
 Section 2 - PHP Basics
+
 This section went over syntax, variables and constants as well as provided a few exercises.
 
 Section 3 - PHP Arrays
+
 Arrays, associative and multi-dimensional, were covered.
 
 Section 4 - If, Else & Elseif
+
 If, else and elseif were covered.
 
 Section 5 - Operators
+
 The types of operators covered were comparison, logical, arithmetic, string, and assignment
 
 Section 6 - PHP Loops
-Whilw, For, Foreach and Do / While loops were covered.
+
+While, For, Foreach and Do / While loops were covered.
 
 Section 7 - PHP Functions
+
 Built-in and custom functions were covered as well as simple arguments.
 
 Section 8 - Coding a Dynmaic PHP Restaurant Website
+
 This was the most comprehensive part of the course. Starting from scratch, I built a basic webpage layout statically before dividing the page in to php templates starting with the header and the footer. We then moved on to creating the team page which incorporated a team member array, and how to access that from a separate file. We then moved onto the menu page and arrays where we learned about $_GET while building the menu item tempalate. Finally we developed a very simple contact form and incorporated the use of $_POST, simple form validation and submission. He also touched on the use of `preg_match()` to rid ourselves of common code injections.
 
 ## How To Run This On Your Local Machine
