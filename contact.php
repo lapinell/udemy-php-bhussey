@@ -29,6 +29,11 @@
           die(); // If true, kill the script
         }
 
+        if ( !$name || !$email || !$message) {
+          echo '<h4 class="error">All fields required.</h4><a href="contact.php" class="button block">Go back and try again</a>';
+          exit;
+        }
+
       }
 
     ?>
