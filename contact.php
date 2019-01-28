@@ -45,8 +45,17 @@
         $msg .= "Email: $email\r\n";
         $msg .= "Message:\r\n$msg";
 
-        //
+        // If the subsribe checkbox was checked...
 
+        ifisset($_POST['subscribe']) && $_POST['subscribe'] == 'Subscribe') {
+
+          // Add a new line to the $msg
+          $msg .= "\r\n\r\nPlease add $email to the mailing list.\r\n";
+        }
+
+        $msg = wordwrap($msg, 72);
+
+        // Set mail headers to a variable
       }
 
     ?>
